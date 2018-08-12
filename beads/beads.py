@@ -33,5 +33,5 @@ for i in range(number_of_beads):
                 index += 1
         if maximum < (c1 + c2):
             maximum = c1 + c2
-fout.write(str(maximum))
+fout.write(str(maximum) + '\n')
 fout.close()
