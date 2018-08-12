@@ -37,6 +37,6 @@ while year != end_year or day != 31 or month != 12:
         output[day_of_the_week] += 1
 for key in output:
     if key == 7:
-        fout.write(str(output[key]))
+        fout.write(str(output[key]) + "\n")
     else:
         fout.write(str(output[key]) + " ")
