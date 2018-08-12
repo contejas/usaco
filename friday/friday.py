@@ -12,7 +12,6 @@ day_of_the_week = 3  # Monday is 3, Tuesday is 4, Sunday is 2
 month = 1
 day = 1
 year = 1900
-leap = False
 end_year = (1900 + N) - 1
 while year != end_year or day != 31 or month != 12:
     day += 1
@@ -40,3 +39,4 @@ for key in output:
         fout.write(str(output[key]) + "\n")
     else:
         fout.write(str(output[key]) + " ")
+fout.close()
